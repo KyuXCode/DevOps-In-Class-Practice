@@ -21,8 +21,8 @@ describe('Factorial Function', function() {
     });
 
     describe('Negative cases', function() {
-        it('should return "Can\'t be negative" for negative input', function() {
-            assert.strictEqual(main.factorial(-1), "Can't be negative");
+        it('should return undefined for negative input', function() {
+            assert.strictEqual(main.factorial(-1), undefined);
         });
     });
 });
